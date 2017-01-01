@@ -1,9 +1,7 @@
 /***************************************************************************/
 /*      convertDate.c 	 			Prog II			   */
 /***************************************************************************/
-/*                      Disclaimer:					   */
-/* I hereby certify that this collective work is my own and none of it is  */
-/* the work of any other person or entity.  		   	   	   */
+/*  Author: Carlos L Sanchez Vila					   */
 /***************************************************************************/
 /*              		Program Description:			   */
 /* The following program goes through imput passed through stdin and 	   */
