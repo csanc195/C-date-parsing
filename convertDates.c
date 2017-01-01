@@ -1,38 +1,35 @@
 /***************************************************************************/
-/*      convertDate.c 	 			Prog II								   */
+/*      convertDate.c 	 			Prog II			   */
 /***************************************************************************/
-/* Author: Carlos L Sanchez Vila   Panther ID: 5446178					   */
-/* Class: COP4338, Instructor: William Feilds Session: Tu and Th 6:25 pm   */
-/***************************************************************************/
-/*                      Disclaimer:										   */
+/*                      Disclaimer:					   */
 /* I hereby certify that this collective work is my own and none of it is  */
-/* the work of any other person or entity.  		   	   				   */
+/* the work of any other person or entity.  		   	   	   */
 /***************************************************************************/
-/*              		Program Description:							   */
+/*              		Program Description:			   */
 /* The following program goes through imput passed through stdin and 	   */
-/* reads entries that follow the pattern of 							   */
-/*			number(month)/number(day)/number(year)						   */
+/* reads entries that follow the pattern of 				   */
+/*			number(month)/number(day)/number(year)		   */
 /* verifies that they represent a valid date, that is, the date is valid   */
 /* if the day is a number from 1 to 31, if a month is a number from 1 to 12*/
 /* and if the year is less or equal to INT_MAX which is the largest int    */
 /* number that can be expressed in c, integers range from -2^32 to (2^32)-1*/
 /* The date is then tested for accuracy, that is if the date is correct and*/
-/* and measured with leap year accuracy.								   */
+/* and measured with leap year accuracy.				   */
 /* dates that are found to be valid are the converted to the format:	   */
-/*          day monthString year										   */
+/*          day monthString year					   */
 /* where monthString is represented as a capitalized 3 letter string       */
 /* representing the month that corresponds to the integer number "month"   */
-/* and then written into the standard output.							   */
+/* and then written into the standard output.				   */
 /* After the program has parsed all possible dates, it appends the origianl*/
-/* file to the output and terminates.									   */
+/* file to the output and terminates.					   */
 /***************************************************************************/
-/* 						Instructions/How to use:						   */
-/* To compile and run this specific program just enter:					   */
+/* 						Instructions/How to use:   */
+/* To compile and run this specific program just enter:		           */
 /* 		make build2										   				   */
 /* followed by:  														   */
-/*      ./dateConverter.out  > filename									   */
+/*      ./dateConverter.out  > filename					   */
 /* Where filename is the file that will hold the converted dates if any	   */
-/*  																	   */
+/*  									   */							   */
 /***************************************************************************/
 
 #include "convertDates.h"
