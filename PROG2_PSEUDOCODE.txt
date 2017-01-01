@@ -1,0 +1,34 @@
+	The program "dateConverter.out" takes as input dates from standard input in 
+the format month/day/year where month day and year are numbers, and converts 
+each of the dates found to be valid into the format day/monthString/year.
+A date is considered valid if all numbers are within the expected parameters
+for their category, ex: a month should be less than 12 and every day should be 
+less than the limit for its indicated month. The year entered should be less 
+or equal to INT_MAX which is the largest number that can be expressed in c 
+using an integer type this number ranges from -2 ^ 32 to (2^32)-1.
+
+The main program functionality can be described with the following pseudocode:
+
+main(){
+
+	TAKE COMMAND LINE INPUT VAL AS long
+		translateDates(stdin,stdout,(int)VAL);
+
+	RETURN NO_PROGRAM_ERRORS;
+}
+
+
+
+
+translateDates(FILE *fileIn, FILE *fileOut){
+	CHAR BUFFER[BUFFER_SIZE];
+	READ A LINE INTO THE BUFFER;
+
+	PARSE THE LINE LOOKING FOR DATES OF THE FORM: 
+		month/day/year	
+	VERIFY THE VALIDITY OF EVERY FOUND DATE
+
+	IF VALID
+		convert the date to the format day/monthString/year;
+		write the date to the output file;
+}
