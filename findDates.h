@@ -1,9 +1,9 @@
 /***************************************************************************/
-/*      findDates.h 		header for Prog I 							   */
+/*      findDates.h 		header for Prog I 							                   */
 /***************************************************************************/
 /* This header file contains the function prototypes for the program       */
-/* findDates.c, it also contains all of the needed definitions and 		   */
-/* libraries needed.													   */
+/* findDates.c, it also contains all of the needed definitions and 		     */
+/* libraries needed.													                             */
 /***************************************************************************/
 
 #include <stdio.h>
@@ -38,7 +38,7 @@ typedef enum {FALSE, TRUE} bool;/* Allow the use of the boolean type 		  */
 
 
 /***************************************************************************/
-/* Function Prototypes	 												   */
+/* Function Prototypes	 												                           */
 /***************************************************************************/
 
 /* findDates.c Function prototypes */
