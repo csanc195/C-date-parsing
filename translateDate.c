@@ -1,5 +1,5 @@
 /***************************************************************************/
-/*      translateDate.c 	 Prog II									   */
+/*      translateDate.c 	 Prog II				   */
 /***************************************************************************/
 /* The following file is complementary for the program convertDates.c      */
 /* this file contains functions which allow to parse entries from the      */
