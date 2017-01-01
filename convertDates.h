@@ -1,9 +1,9 @@
 /***************************************************************************/
-/*      convertDates.h 	 header for Prog II								   */
+/*      convertDates.h 	 header for Prog II								                 */
 /***************************************************************************/
 /* This header file contains the function prototypes for the program       */
 /* convertDates.c, it also contains all of the needed definitions and 	   */
-/* libraries															   */
+/* libraries															                                 */
 /***************************************************************************/
 
 #include <stdio.h>
